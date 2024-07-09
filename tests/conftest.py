@@ -1,15 +1,7 @@
 import os
-from unittest.mock import MagicMock
-from urllib.parse import urlparse, urlsplit
 
 import pytest
 import responses
-
-import bitcaster_sdk
-
-
-# from bitcaster_sdk.client import Client
-# from bitcaster_sdk.sdk import Bitcaster
 
 
 class FakeRequestsMock:

@@ -1,8 +1,8 @@
 import os
 
 import pytest
-from click import ClickException
 from click.testing import CliRunner
+
 from bitcaster_sdk.__main__ import cli
 
 

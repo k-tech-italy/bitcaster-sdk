@@ -2,7 +2,6 @@ import click
 from click import echo, secho
 
 import bitcaster_sdk
-from bitcaster_sdk.exceptions import AuthenticationError
 
 
 @click.group()
@@ -28,7 +27,7 @@ def list_() -> None:
                 cl = "red"
             elif e["active"]:
                 cl = "green"
-            else: # e["active"]:
+            else:  # e["active"]:
                 cl = "yellow"
             secho(
                 FMT.format(

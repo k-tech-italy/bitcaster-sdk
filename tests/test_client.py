@@ -1,5 +1,6 @@
+from typing import TYPE_CHECKING, Any
+
 import pytest
-from typing import TYPE_CHECKING
 
 from bitcaster_sdk.exceptions import ConfigurationError
 
